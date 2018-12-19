@@ -1,12 +1,19 @@
 {
-  "name": "gajus/xhprof.io",
-  "autoload": {
-    "classmap": ["xhprof/classes"]
-  },
-  "require": {
-	"php": ">=5.3.3",
-	"ext-PDO": "*",
+    "name": "binfer",
+    "description": "this is xhprof",
+    "authors": [
+        {
+            "name": "binfer",
+            "email": "binfer.mvp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["xhprof/classes"]
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "ext-PDO": "*",
         "ext-pdo_mysql": "*",
-	"ext-curl": "*"
-  }
+        "ext-curl": "*"
+    }
 }
