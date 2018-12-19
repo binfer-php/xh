@@ -1,10 +1,17 @@
 {
-    "name": "binfer",
-    "description": "this is xhprof",
+    "name": "binfer/php-xh",
+    "type": "vcs",
+    "description": "A example xhprof package",
+    "keywords": ["binfer", "composer"],
+    "homepage": "https://github.com/binfer-php/xh",
+    "license":  "MIT",
+
     "authors": [
         {
             "name": "binfer",
-            "email": "binfer.mvp@gmail.com"
+            "email": "binfer.mvp@gmail.com",
+            "homepage": "http://www.binfer.live",
+            "role": "developer"
         }
     ],
     "autoload": {
